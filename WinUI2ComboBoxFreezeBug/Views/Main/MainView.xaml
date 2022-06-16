@@ -1,0 +1,30 @@
+﻿<UserControl
+    x:Class="WinUI2ComboBoxFreezeBug.Views.Main.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+>
+
+    <StackPanel 
+		Margin="100,100,0,0"
+		Spacing="20"
+	>
+		<ComboBox
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			MinWidth="120"
+		>
+			<ComboBoxItem Content="Apples" IsSelected="True" />
+			<ComboBoxItem Content="Oranges" />
+			<ComboBoxItem Content="Bananas" />
+			<ComboBoxItem Content="Pears" />
+		</ComboBox>
+
+		<Button
+			x:Name="btnSpawnWindow"
+			Content="Spawn new window"
+			Click="btnSpawnWindow_Click"
+		/>
+
+	</StackPanel>
+	
+</UserControl>
