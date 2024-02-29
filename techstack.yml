@@ -2,7 +2,7 @@ repo_name: ZodmanPerth/WinUI2ComboBoxFreezeBug
 report_id: db7a58cec76df4cb3edea63cd9bd4cf7
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:06:33+00:00'
+timestamp: '2024-02-29T18:23:07+00:00'
 requested_by: stack-file[bot]
 provider: github
 branch: master
