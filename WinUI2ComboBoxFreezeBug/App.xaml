@@ -6,8 +6,18 @@
 
 	<Application.Resources>
 
-		<!--External -->
-		<XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+		<ResourceDictionary>
+
+			<ResourceDictionary.MergedDictionaries>
+
+				<!--External -->
+				<XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+
+			</ResourceDictionary.MergedDictionaries>
+
+			<x:Boolean x:Key="ThemeShadowIsUsingDropShadows">False</x:Boolean>
+			
+		</ResourceDictionary>
 
 	</Application.Resources>
 
